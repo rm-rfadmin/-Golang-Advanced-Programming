@@ -645,5 +645,5 @@ func aGoruntine() {
 func TestChan1(t *testing.T) {
 	go aGoruntine()
 	<-done2
-
+	t.Log(msg)
 }
